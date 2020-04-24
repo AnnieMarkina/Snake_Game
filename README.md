@@ -1,2 +1,2 @@
-🐍🐍🐍 [Game](https://anniemarkina.github.io/Snake_Game/) 🐍🐍🐍
+[Game](https://anniemarkina.github.io/Snake_Game/) 🐍🐍🐍
  
