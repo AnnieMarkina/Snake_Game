@@ -1,4 +1,5 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://AnnieMarkina.github.io/Snake_Game/)
+# Snake Game
+
+[Game](https://anniemarkina.github.io/Snake_Game/) 🐍🐍🐍
+
+![preview](https://media.giphy.com/media/JQAdMHNO7JhWkDsv2y/giphy.gif)
