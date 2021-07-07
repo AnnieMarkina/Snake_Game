@@ -2,6 +2,47 @@
 @import "fonts";
 @import "typography";
 
+html,
 body {
-  background: $c-gray;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: black;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.score {
+  text-align: center;
+  color: rgb(86, 207, 94);
+}
+
+canvas {
+  border: 1px solid white;
+  background-color: rgb(39, 32, 32);
+}
+
+.game__container {
+  position: relative;
+}
+
+.fail__emoji {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  &.hidden {
+    display: none;
+  }
 }

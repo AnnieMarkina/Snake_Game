@@ -1,0 +1,63 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: black;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.score {
+  text-align: center;
+  color: #56cf5e;
+}
+
+canvas {
+  border: 1px solid white;
+  background-color: #272020;
+}
+
+.game__container {
+  position: relative;
+}
+
+.fail__emoji {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.fail__emoji img {
+  width: 80px;
+  height: 80px;
+}
+
+.fail__emoji.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
